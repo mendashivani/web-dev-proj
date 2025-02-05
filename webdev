@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            background: #eee;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        li:hover {
+            background: #ddd;
+            transform: scale(1.05);
+        }
+        footer {
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>My Bucket List</header>
+    <div class="container">
+        <ul>
+            <li>Travel to Japan</li>
+            <li>Learn to Play Guitar</li>
+            <li>Go Skydiving</li>
+            <li>Write a Book</li>
+            <li>Run a Marathon</li>
+        </ul>
+    </div>
+    <footer>&copy; 2025 My Bucket List</footer>
+</body>
+</html>
